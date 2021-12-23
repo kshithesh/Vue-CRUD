@@ -1,0 +1,13 @@
+$glass: #f3fcfe;
+$black: #090979;
+$nav-bar: #2c3e50;
+
+$box-shade: 0 15px 25px rgba(0, 0, 0, 0.6);
+$box-back:rgba(80, 78, 78, 0.5);
+
+@mixin box-shadow {
+    box-shadow: $box-shade;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
